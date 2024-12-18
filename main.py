@@ -10,7 +10,7 @@ import time
 
 # Configurar o Selenium
 def configurar_navegador():
-    chromedriver_path = "C:\\Users\\demat\\Documents\\Natã\\chromedriver.exe"  # Caminho correto do ChromeDriver
+    chromedriver_path = "C:\\Users\\demat\\Documents\\Natã\\chromedriver.exe"
     service = Service(chromedriver_path)
     driver = webdriver.Chrome(service=service)
     driver.get("https://www.amazon.com.br")
